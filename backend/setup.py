@@ -1,0 +1,21 @@
+from setuptools import setup, find_packages
+
+setup(
+    name="student-behavior-monitoring",
+    version="0.1.0",
+    packages=find_packages(),
+    install_requires=[
+        "fastapi==0.103.1",
+        "uvicorn==0.23.2",
+        "python-multipart==0.0.6",
+        "pillow==10.0.1",
+        "opencv-python==4.8.0.76",
+        "numpy==1.25.2",
+        "websockets==11.0.3",
+        "agora-token-builder==1.0.0",
+        "python-dotenv==1.0.0"
+    ],
+    author="Your Name",
+    author_email="your.email@example.com",
+    description="Student behavior monitoring system with video conferencing",
+) 
